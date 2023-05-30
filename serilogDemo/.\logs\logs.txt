@@ -1,0 +1,30 @@
+05/29/2023 14:26:37 application starting up.
+05/29/2023 14:26:38 this is the log
+05/29/2023 14:26:38 The value of i is 0
+05/29/2023 14:26:38 The value of i is 1
+05/29/2023 14:26:38 The value of i is 2
+05/29/2023 14:26:38 The value of i is 3
+05/29/2023 14:26:38 The value of i is 4
+05/29/2023 14:26:38 The value of i is 5
+05/29/2023 14:26:38 The value of i is 6
+05/29/2023 14:26:38 The value of i is 7
+05/29/2023 14:26:38 The value of i is 8
+05/29/2023 14:26:38 The value of i is 9
+05/29/2023 14:26:38 The value of i is 10
+05/29/2023 14:26:38 The value of i is 11
+05/29/2023 14:26:38 The value of i is 12
+05/29/2023 14:26:38 The value of i is 13
+05/29/2023 14:26:38 The value of i is 14
+05/29/2023 14:26:38 The value of i is 15
+05/29/2023 14:26:38 The value of i is 16
+05/29/2023 14:26:38 The value of i is 17
+05/29/2023 14:26:38 The value of i is 18
+05/29/2023 14:26:38 The value of i is 19
+05/29/2023 14:26:38 The value of i is 20
+05/29/2023 14:26:38 The value of i is 21
+05/29/2023 14:26:38 The value of i is 22
+05/29/2023 14:26:38 The value of i is 23
+05/29/2023 14:26:38 The value of i is 24
+05/29/2023 14:26:38 the error is catched
+System.Exception: This is the 25 error
+   at serilogDemo.Pages.IndexModel.OnGet() in /Users/shakya/Projects/serilogDemo/serilogDemo/Pages/Index.cshtml.cs:line 24

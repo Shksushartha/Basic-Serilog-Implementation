@@ -1,0 +1,120 @@
+05/30/2023 12:49:57 application starting up.
+05/30/2023 12:49:57 User profile is available. Using '"/Users/shakya/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+05/30/2023 12:49:59 Request starting HTTP/1.1 GET https://localhost:7005/ - -
+05/30/2023 12:49:59 Executing endpoint '"/Index"'
+05/30/2023 12:49:59 Route matched with "{page = \"/Index\"}". Executing page "/Index"
+05/30/2023 12:49:59 Executing handler method "serilogDemo.Pages.IndexModel.OnGet" - ModelState is Valid
+05/30/2023 12:49:59 this is the log
+05/30/2023 12:49:59 The value of i is 0
+05/30/2023 12:49:59 The value of i is 1
+05/30/2023 12:49:59 The value of i is 2
+05/30/2023 12:49:59 The value of i is 3
+05/30/2023 12:49:59 The value of i is 4
+05/30/2023 12:49:59 The value of i is 5
+05/30/2023 12:49:59 The value of i is 6
+05/30/2023 12:49:59 The value of i is 7
+05/30/2023 12:49:59 The value of i is 8
+05/30/2023 12:49:59 The value of i is 9
+05/30/2023 12:49:59 The value of i is 10
+05/30/2023 12:49:59 The value of i is 11
+05/30/2023 12:49:59 The value of i is 12
+05/30/2023 12:49:59 The value of i is 13
+05/30/2023 12:49:59 The value of i is 14
+05/30/2023 12:49:59 The value of i is 15
+05/30/2023 12:49:59 The value of i is 16
+05/30/2023 12:49:59 The value of i is 17
+05/30/2023 12:49:59 The value of i is 18
+05/30/2023 12:49:59 The value of i is 19
+05/30/2023 12:49:59 The value of i is 20
+05/30/2023 12:49:59 The value of i is 21
+05/30/2023 12:49:59 The value of i is 22
+05/30/2023 12:49:59 The value of i is 23
+05/30/2023 12:49:59 The value of i is 24
+05/30/2023 12:49:59 the error is catched
+System.Exception: This is the 25 error
+   at serilogDemo.Pages.IndexModel.OnGet() in /Users/shakya/Projects/serilogDemo/serilogDemo/Pages/Index.cshtml.cs:line 24
+05/30/2023 12:49:59 Executed handler method "OnGet", returned result "".
+05/30/2023 12:49:59 Executing an implicit handler method - ModelState is Valid
+05/30/2023 12:49:59 Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+05/30/2023 12:49:59 Executed page "/Index" in 159.2006ms
+05/30/2023 12:49:59 Executed endpoint '"/Index"'
+05/30/2023 12:49:59 Request finished HTTP/1.1 GET https://localhost:7005/ - - - 200 - text/html;+charset=utf-8 196.9625ms
+05/30/2023 12:49:59 Request starting HTTP/1.1 GET https://localhost:7005/lib/bootstrap/dist/css/bootstrap.min.css - -
+05/30/2023 12:49:59 Request starting HTTP/1.1 GET https://localhost:7005/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+05/30/2023 12:49:59 Request starting HTTP/1.1 GET https://localhost:7005/serilogDemo.styles.css?v=u6dNux1whQwOFY3abp1tL23p3TRtkqzundaQSWFnTJA - -
+05/30/2023 12:49:59 Request starting HTTP/1.1 GET https://localhost:7005/js/site.js?v=ZuuafqFPrVRBKcjc9nVnUgldbE3hS3GG5WeZxe6SIR0 - -
+05/30/2023 12:49:59 Request starting HTTP/1.1 GET https://localhost:7005/lib/jquery/dist/jquery.min.js - -
+05/30/2023 12:49:59 Request starting HTTP/1.1 GET https://localhost:7005/css/site.css?v=bMbDR2aIv3SG8U7yhPi5gB6GKKZo4AWik9hloOTydtA - -
+05/30/2023 12:49:59 Sending file. Request path: '"/css/site.css"'. Physical path: '"/Users/shakya/Projects/serilogDemo/serilogDemo/wwwroot/css/site.css"'
+05/30/2023 12:49:59 Request finished HTTP/1.1 GET https://localhost:7005/css/site.css?v=bMbDR2aIv3SG8U7yhPi5gB6GKKZo4AWik9hloOTydtA - - - 200 181 text/css 5.1914ms
+05/30/2023 12:49:59 The file "/lib/bootstrap/dist/css/bootstrap.min.css" was not modified
+05/30/2023 12:49:59 The file "/js/site.js" was not modified
+05/30/2023 12:49:59 The file "/lib/bootstrap/dist/js/bootstrap.bundle.min.js" was not modified
+05/30/2023 12:49:59 The file "/lib/jquery/dist/jquery.min.js" was not modified
+05/30/2023 12:49:59 Request finished HTTP/1.1 GET https://localhost:7005/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 304 - text/javascript 14.2482ms
+05/30/2023 12:49:59 Request finished HTTP/1.1 GET https://localhost:7005/lib/bootstrap/dist/css/bootstrap.min.css - - - 304 - text/css 14.9050ms
+05/30/2023 12:49:59 Request finished HTTP/1.1 GET https://localhost:7005/lib/jquery/dist/jquery.min.js - - - 304 - text/javascript 14.8885ms
+05/30/2023 12:49:59 Request finished HTTP/1.1 GET https://localhost:7005/js/site.js?v=ZuuafqFPrVRBKcjc9nVnUgldbE3hS3GG5WeZxe6SIR0 - - - 304 - text/javascript 14.5200ms
+05/30/2023 12:49:59 Sending file. Request path: '"/serilogDemo.styles.css"'. Physical path: '"/Users/shakya/Projects/serilogDemo/serilogDemo/obj/Debug/net6.0/scopedcss/bundle/serilogDemo.styles.css"'
+05/30/2023 12:49:59 Request finished HTTP/1.1 GET https://localhost:7005/serilogDemo.styles.css?v=u6dNux1whQwOFY3abp1tL23p3TRtkqzundaQSWFnTJA - - - 200 1080 text/css 66.1720ms
+05/30/2023 12:50:16 Request starting HTTP/1.1 GET https://localhost:7005/Privacy - -
+05/30/2023 12:50:16 Executing endpoint '"/Privacy"'
+05/30/2023 12:50:16 Route matched with "{page = \"/Privacy\"}". Executing page "/Privacy"
+05/30/2023 12:50:16 Executing handler method "serilogDemo.Pages.PrivacyModel.OnGet" - ModelState is Valid
+05/30/2023 12:50:16 Executed handler method "OnGet", returned result "".
+05/30/2023 12:50:16 Executing an implicit handler method - ModelState is Valid
+05/30/2023 12:50:16 Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+05/30/2023 12:50:16 Executed page "/Privacy" in 10.0555ms
+05/30/2023 12:50:16 Executed endpoint '"/Privacy"'
+05/30/2023 12:50:16 Request finished HTTP/1.1 GET https://localhost:7005/Privacy - - - 200 - text/html;+charset=utf-8 22.4466ms
+05/30/2023 12:51:28 application starting up.
+05/30/2023 12:51:28 User profile is available. Using '"/Users/shakya/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+05/30/2023 12:51:29 Request starting HTTP/1.1 GET https://localhost:7005/ - -
+05/30/2023 12:51:29 Executing endpoint '"/Index"'
+05/30/2023 12:51:29 Route matched with "{page = \"/Index\"}". Executing page "/Index"
+05/30/2023 12:51:29 Executing handler method "serilogDemo.Pages.IndexModel.OnGet" - ModelState is Valid
+05/30/2023 12:51:29 this is the log
+05/30/2023 12:51:29 The value of i is 0
+05/30/2023 12:51:29 The value of i is 1
+05/30/2023 12:51:29 The value of i is 2
+05/30/2023 12:51:29 The value of i is 3
+05/30/2023 12:51:29 The value of i is 4
+05/30/2023 12:51:29 The value of i is 5
+05/30/2023 12:51:29 The value of i is 6
+05/30/2023 12:51:29 The value of i is 7
+05/30/2023 12:51:29 The value of i is 8
+05/30/2023 12:51:29 The value of i is 9
+05/30/2023 12:51:29 The value of i is 10
+05/30/2023 12:51:29 The value of i is 11
+05/30/2023 12:51:29 The value of i is 12
+05/30/2023 12:51:29 The value of i is 13
+05/30/2023 12:51:29 The value of i is 14
+05/30/2023 12:51:29 The value of i is 15
+05/30/2023 12:51:29 The value of i is 16
+05/30/2023 12:51:29 The value of i is 17
+05/30/2023 12:51:29 The value of i is 18
+05/30/2023 12:51:29 The value of i is 19
+05/30/2023 12:51:29 The value of i is 20
+05/30/2023 12:51:29 The value of i is 21
+05/30/2023 12:51:29 The value of i is 22
+05/30/2023 12:51:29 The value of i is 23
+05/30/2023 12:51:29 The value of i is 24
+05/30/2023 12:51:29 the error is catched
+System.Exception: This is the 25 error
+   at serilogDemo.Pages.IndexModel.OnGet() in /Users/shakya/Documents/techk/serilogDemo/serilogDemo/Pages/Index.cshtml.cs:line 24
+05/30/2023 12:51:29 Executed handler method "OnGet", returned result "".
+05/30/2023 12:51:29 Executing an implicit handler method - ModelState is Valid
+05/30/2023 12:51:29 Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+05/30/2023 12:51:29 Executed page "/Index" in 135.0186ms
+05/30/2023 12:51:29 Executed endpoint '"/Index"'
+05/30/2023 12:51:29 Request finished HTTP/1.1 GET https://localhost:7005/ - - - 200 - text/html;+charset=utf-8 169.1147ms
+05/30/2023 12:51:32 Request starting HTTP/1.1 GET https://localhost:7005/Privacy - -
+05/30/2023 12:51:32 Executing endpoint '"/Privacy"'
+05/30/2023 12:51:32 Route matched with "{page = \"/Privacy\"}". Executing page "/Privacy"
+05/30/2023 12:51:32 Executing handler method "serilogDemo.Pages.PrivacyModel.OnGet" - ModelState is Valid
+05/30/2023 12:51:32 Executed handler method "OnGet", returned result "".
+05/30/2023 12:51:32 Executing an implicit handler method - ModelState is Valid
+05/30/2023 12:51:32 Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+05/30/2023 12:51:32 Executed page "/Privacy" in 9.2178ms
+05/30/2023 12:51:32 Executed endpoint '"/Privacy"'
+05/30/2023 12:51:32 Request finished HTTP/1.1 GET https://localhost:7005/Privacy - - - 200 - text/html;+charset=utf-8 20.7707ms
